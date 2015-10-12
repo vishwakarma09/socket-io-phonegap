@@ -18,7 +18,7 @@
   <preference name="disable-cursor" value="false"/>
   <preference name="android-minSdkVersion" value="7"/>
   <preference name="android-installLocation" value="auto"/>
-<!--  <gap:plugin name="org.apache.cordova.battery-status" source="npm"/>
+  <gap:plugin name="org.apache.cordova.battery-status" source="npm"/>
   <gap:plugin name="org.apache.cordova.camera" source="npm"/>
   <gap:plugin name="org.apache.cordova.media-capture" source="npm"/>
   <gap:plugin name="org.apache.cordova.console" source="npm"/>
@@ -28,11 +28,11 @@
   <gap:plugin name="org.apache.cordova.device-orientation" source="npm"/>
   <gap:plugin name="org.apache.cordova.dialogs" source="npm"/>
   <gap:plugin name="org.apache.cordova.file" source="npm"/>
-  <gap:plugin name="org.apache.cordova.file-transfer" source="npm"/>
+<!--  <gap:plugin name="org.apache.cordova.file-transfer" source="npm"/> -->
   <gap:plugin name="org.apache.cordova.geolocation" source="npm"/>
-<gap:plugin name="org.apache.cordova.globalization" source="npm"/> -->
+	<gap:plugin name="org.apache.cordova.globalization" source="npm"/>
   <gap:plugin name="org.apache.cordova.inappbrowser" source="npm"/>
-<!--  <gap:plugin name="org.apache.cordova.media" source="npm"/>
+  <gap:plugin name="org.apache.cordova.media" source="npm"/>
   <gap:plugin name="org.apache.cordova.network-information" source="npm"/>
   <gap:plugin name="org.apache.cordova.splashscreen" source="npm"/>
   <gap:plugin name="org.apache.cordova.vibration" source="npm"/>
@@ -60,7 +60,7 @@
   <gap:splash src="www/res/screen/ios/screen-iphone-portrait-568h-2x.png" gap:platform="ios" width="640" height="1136"/>
   <gap:splash src="www/res/screen/ios/screen-ipad-portrait.png" gap:platform="ios" width="768" height="1024"/>
   <gap:splash src="www/res/screen/ios/screen-ipad-landscape.png" gap:platform="ios" width="1024" height="768"/>
-<gap:splash src="www/res/screen/windows-phone/screen-portrait.jpg" gap:platform="winphone"/> -->
+<gap:splash src="www/res/screen/windows-phone/screen-portrait.jpg" gap:platform="winphone"/>
   <access origin="*"/>
   <plugin name="cordova-plugin-whitelist" version="1"/>
   <allow-intent href="http://*/*"/>
